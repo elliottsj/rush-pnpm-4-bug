@@ -1,0 +1,12 @@
+{
+  "name": "@elliottsj/third-party-transitive-dependency",
+  "version": "3.0.0",
+  "description": "Example of a transitive npm dependency of a Rush project",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

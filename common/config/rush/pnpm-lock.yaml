@@ -1,0 +1,27 @@
+dependencies:
+  '@elliottsj/third-party-direct-dependency': 2.0.1
+  '@rush-temp/mypackage': 'file:projects/mypackage.tgz'
+lockfileVersion: 5.1
+packages:
+  /@elliottsj/third-party-direct-dependency/2.0.1:
+    dependencies:
+      '@elliottsj/third-party-transitive-dependency': 3.0.0
+    dev: false
+    resolution:
+      integrity: sha512-pFqgg5Vo4yBisfE5fCiduiWgZ6VFIK2bZGfAAGAvKKqD+WZsbtVEE2pOqEr+TLP6Th57+zguVEuQNRVMBEfqoA==
+  /@elliottsj/third-party-transitive-dependency/3.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-U7QAQbjA/RVgUGdGk3O/YXspb32whuULRBlB8PCK3/dexxHQtCpRKCFyy/JsP+RfxsxRhgq6GS5a0K7S0qgiLA==
+  'file:projects/mypackage.tgz':
+    dependencies:
+      '@elliottsj/third-party-direct-dependency': 2.0.1
+    dev: false
+    name: '@rush-temp/mypackage'
+    resolution:
+      integrity: sha512-l2fGxfXG/n1XwArbfmz+zFgiW6QF7zr/Z72BxiRdAboZiU7q+UtcreEKtAU7zn/Q8k5hrChvABrFbzVyXsyV/Q==
+      tarball: 'file:projects/mypackage.tgz'
+    version: 0.0.0
+specifiers:
+  '@elliottsj/third-party-direct-dependency': 2.0.1
+  '@rush-temp/mypackage': 'file:./projects/mypackage.tgz'

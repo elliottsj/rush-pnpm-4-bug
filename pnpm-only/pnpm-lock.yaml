@@ -1,0 +1,16 @@
+dependencies:
+  '@elliottsj/third-party-direct-dependency': 2.0.1
+lockfileVersion: 5.1
+packages:
+  /@elliottsj/third-party-direct-dependency/2.0.1:
+    dependencies:
+      '@elliottsj/third-party-transitive-dependency': 3.0.0
+    dev: false
+    resolution:
+      integrity: sha512-pFqgg5Vo4yBisfE5fCiduiWgZ6VFIK2bZGfAAGAvKKqD+WZsbtVEE2pOqEr+TLP6Th57+zguVEuQNRVMBEfqoA==
+  /@elliottsj/third-party-transitive-dependency/3.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-U7QAQbjA/RVgUGdGk3O/YXspb32whuULRBlB8PCK3/dexxHQtCpRKCFyy/JsP+RfxsxRhgq6GS5a0K7S0qgiLA==
+specifiers:
+  '@elliottsj/third-party-direct-dependency': 2.0.1

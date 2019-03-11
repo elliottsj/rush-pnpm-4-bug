@@ -1,0 +1,15 @@
+{
+  "name": "@elliottsj/third-party-direct-dependency",
+  "version": "2.0.1",
+  "description": "Example of a direct npm dependency of a Rush project",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@elliottsj/third-party-transitive-dependency": "^3.0.0"
+  }
+}

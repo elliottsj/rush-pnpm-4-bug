@@ -1,0 +1,9 @@
+{
+  "description": "Example project",
+  "name": "mypackage",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "@elliottsj/third-party-direct-dependency": "2.0.1"
+  }
+}
