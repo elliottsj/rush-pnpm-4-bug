@@ -59,3 +59,15 @@ $ cd node_modules/@elliottsj/third-party-direct-dependency/
 $ node -p "require(\"@elliottsj/third-party-transitive-dependency/package.json\").version"
 3.0.0
 ```
+
+### Using pnpm@3
+
+The problem doesn't occur when using pnpm@3.8.1. Check out the [pnpm-3 branch](https://github.com/elliottsj/rush-pnpm-4-bug/tree/pnpm-3):
+
+```sh-session
+$ rush install -p
+...
+$ cd common/temp/node_modules/@elliottsj/third-party-direct-dependency/
+$ node -p "require(\"@elliottsj/third-party-transitive-dependency/package.json\").version"
+3.0.0
+```
