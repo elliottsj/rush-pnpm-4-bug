@@ -1,6 +1,6 @@
 # rush-pnpm-4-bug
 
-Reproduction of a bug with Rush + pnpm: (link)
+Reproduction of a bug with Rush + pnpm: https://github.com/microsoft/rushstack/issues/1623
 
 When used with pnpm@4, Rush does not respect the pinned version of a transitive dependency. Instead, the latest compatible version is installed.
 
