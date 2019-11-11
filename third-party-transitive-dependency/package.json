@@ -1,6 +1,6 @@
 {
   "name": "@elliottsj/third-party-transitive-dependency",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Example of a transitive npm dependency of a Rush project",
   "publishConfig": {
     "access": "public"
